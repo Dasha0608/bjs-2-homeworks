@@ -89,7 +89,7 @@ class Library {
             for (let key in this.books[i]) {
                 if (this.books[i][key] === bookName) {
                     const book = this.books[i];
-                    this.books.splice(i, 1);
+                    this.books.splice (i, 1);
                     return book;
                 }
             }
